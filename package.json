@@ -1,0 +1,28 @@
+{
+  "name": "wellbot",
+  "version": "0.1.0",
+  "description": "discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valbersilva/wellbot.git"
+  },
+  "author": "valbersilva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valbersilva/wellbot/issues"
+  },
+  "homepage": "https://github.com/valbersilva/wellbot#readme",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "discord.js": "^14.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "prettier": "^2.8.8"
+  }
+}
