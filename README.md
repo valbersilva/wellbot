@@ -10,3 +10,8 @@
     $ docker-compose up --build
 ```
 
+- Para rodar em desenvolvimento com hot refresh
+
+```
+    $ docker-compose -f docker-compose-dev.yml up --build
+```
