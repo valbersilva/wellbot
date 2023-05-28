@@ -13,5 +13,16 @@
 - Para rodar em desenvolvimento com hot refresh
 
 ```
-    $ docker-compose -f docker-compose-dev.yml up --build
+   $ docker-compose -f docker-compose-dev.yml up --build
+```
+
+## Para Manipular comandos
+- Ao usar slash commands, eles podem ser carregados ao discord previamente
+- Para isso execute os comandos abaixo
+```
+    Para adicionar todos
+    $ ./commands register
+    
+    Para apagar todos
+    ./commands delete
 ```
